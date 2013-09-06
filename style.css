@@ -1,0 +1,66 @@
+/* resets and Universals */
+ @import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
+
+body, a, h1, h2, h3,h4, h5, h6, p, li {
+	font-family: 'Cutive Mono', sans-serif;
+}
+
+
+body {
+ padding: 0;
+ margin: 0;
+ background-color: #EEE;
+}
+
+
+
+/*.leftbullet {
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	-moz-border-radius-topright: 50px;
+	-moz-border-radius-bottomright: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+/* Top Menu/Nav */
+
+.topmenu {
+	width: 100%;
+	background-color: #333;
+	margin: 0;
+	display: block;
+	height: 50px;
+	box-shadow: ;
+
+}
+
+.centered {
+		margin: 0 auto;
+		width: 800px;
+		height: 50px;
+		background-color: #333;
+}
+
+nav {
+	float: right;
+}
+
+nav div {
+	float: left;
+	vertical-align: center;
+	text-align: center;
+	padding: 4px .4em;
+	margin:10px;
+	border-radius: 3px;
+	background-color: #FFF;
+	color: #0fc1c1;
+	font-size: .9em;
+}
+
+/* end menu */
+
+/* homepage billboard */
+
+
+
