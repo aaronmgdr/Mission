@@ -42,7 +42,7 @@ body {
 }
 
 nav {
-	float: right;
+	float: left;
 }
 
 nav div {
@@ -61,13 +61,12 @@ nav div {
 
 /* homepage billboard */
 .container {
-	background-color: #999;
 	position: absolute;
 	margin-top: 51px;
 }
 
 .elevator {
-	background-color: #FAFAFA;
+	padding: 50px;
 }
 .billboard {
 	width: 100%;
@@ -78,5 +77,27 @@ nav div {
 }
 .elevator h1 {
 	margin-top: 0;
+	font-size: 3.3em;
 }
 
+.elevator h5 {
+	font-style: italic;
+}
+/* footerish */
+.steps {
+	background-color: #EEE;
+	padding: 25px 50px;
+	vertical-align: center;
+
+}
+.steps ol li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	background-color: #0fc1c1;
+	margin: 10px;
+	height: 100px;
+	width:  200px;
+	vertical-align: center;
+	list-style-image:decimal;
+}
